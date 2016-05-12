@@ -1,46 +1,17 @@
-Music Listening Dataset
-Audioscrobbler.com
-6 May 2005
---------------------------------
+Cloud - Assignment 3
+Yixing Chen, yc3094
+Qianyuan Chen, qc2200
+Keyu Lai, kl2844
+Sirui Tan, st2957
 
-This data set contains profiles for around 150,000 real people
-The dataset lists the artists each person listens to, and a counter
-indicating how many times each user played each artist
+File List:
+Part 1 (Local VM)
+Cloud-assignment3.ipynb
 
-The dataset is continually growing; at the time of writing (6 May 2005) 
-Audioscrobbler is receiving around 2 million song submissions per day
+Part 2 (AWS)
+run.py
+Assignment3-Screenshot1.jpg
+Assignment3-Screenshot2.jpg
+Assignment3-Screenshot3.jpg
 
-We may produce additional/extended data dumps if anyone is interested 
-in experimenting with the data. 
-
-Please let us know if you do anything useful with this data, we're always
-up for new ways to visualize it or analyse/cluster it etc :)
-
-
-License
--------
-
-This data is made available under the following Creative Commons license:
-http://creativecommons.org/licenses/by-nc-sa/1.0/
-
-
-Files
------
-
-user_artist_data.txt
-    3 columns: userid artistid playcount
-
-artist_data.txt
-    2 columns: artistid artist_name
-
-artist_alias.txt
-    2 columns: badid, goodid
-    known incorrectly spelt artists and the correct artist id. 
-    you can correct errors in user_artist_data as you read it in using this file
-    (we're not yet finished merging this data)
-    
-    
-Contact Info
-------------
-rj@audioscrobbler.com
-irc://irc.audioscrobbler.com/audioscrobbler
+The code in Cloud-assignment3.ipynb and run.py are a little bit different in file path and text file reading.
